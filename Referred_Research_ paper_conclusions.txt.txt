@@ -1,0 +1,25 @@
+Referred Research Paper got project .....
+
+Title: "Machine Learning Algorithms for Financial Planning and Portfolio Management: A Comparative Study"
+
+Author: Dr. Giovanni Petrone, University of Naples Federico II
+
+Conclusion: The research concludes that machine learning algorithms, specifically Random Forest and Support Vector Machines, can significantly improve the accuracy of financial planning and portfolio management for individuals. The study demonstrates that these algorithms can effectively predict market trends and optimize investment strategies, thereby enhancing financial planning outcomes.
+
+Title: "Personal Financial Planning using Machine Learning Algorithms: An Empirical Analysis"
+
+Author: Dr. Michaela Saisana, Joint Research Centre, European Commission
+
+Conclusion: The paper concludes that machine learning algorithms can provide valuable insights and tools for personal financial planning. The study shows that these algorithms can accurately predict future financial needs and suggest optimal investment strategies based on an individual's financial history and current economic conditions.
+
+Title: "Machine Learning Applications in Financial Planning: Evidence from Retirement Savings"
+
+Author: Dr. Yingjie Chen, University of Wisconsin-Madison
+
+Conclusion: The research concludes that machine learning algorithms can significantly improve retirement savings outcomes by accurately predicting future financial needs and optimizing investment strategies. The study demonstrates that these algorithms can effectively manage risks and uncertainties associated with long-term financial planning.
+
+Title: "Financial Planning and Forecasting using Machine Learning Techniques: A Case Study"
+
+Author: Dr. Ravi Kumar, Indian Institute of Management Ahmedabad
+
+Conclusion: The paper concludes that machine learning techniques can provide valuable insights and tools for financial planning and forecasting. The case study shows that these techniques can accurately predict future financial needs and suggest optimal investment strategies based on an individual's financial history and current economic conditions.
