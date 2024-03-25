@@ -91,8 +91,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Authors
 
 - [@Jayesh Pandey](https://github.com/jayesh-RN)
-- [@Arpitshivam Pandey](https://github.com/AbhayGRT)
-- [@Abhay Maurya](https://github.com/Arpit0324)
+- [@Arpitshivam Pandey](https://github.com/Arpit0324)
+- [@Abhay Maurya](https://github.com/AbhayGRT)
 
 ## Contributing
 
