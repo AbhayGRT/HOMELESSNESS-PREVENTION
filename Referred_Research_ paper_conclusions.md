@@ -1,4 +1,4 @@
-### Research Papers on Machine Learning in Financial Planning and Portfolio Management
+# Research Papers on Machine Learning in Financial Planning and Portfolio Management
 
 1. **Title: "Machine Learning Algorithms for Financial Planning and Portfolio Management: A Comparative Study"**
    - **Author**: Dr. Giovanni Petrone, University of Naples Federico II
