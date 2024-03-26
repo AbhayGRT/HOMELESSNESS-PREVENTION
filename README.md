@@ -4,54 +4,47 @@
 ![focus](https://img.shields.io/badge/Tech-Web_Dev-brightgreen)
 ![focus](https://img.shields.io/badge/Tech-ML-brightgreen)
 
-## PROJECT DESCRIPTION :
+## PROJECT DESCRIPTION
 
-### APPROACH :
+### APPROACH
 
-Slums are generally characterized by extremely high population densities, irregular and almost organic arrangement of small buildings as well as poor living conditions.
-Slums are mostly the area where homeless people normally lives.
-We first identified the areas where slums are extended to large area eg Dharavi is the largest slum. Then we collected all the location via survey or inputs provided by users of probable slum areas where mostly homeless .We marked the locations in the maps by which which can track .
-Using that data and taking Satellite imagery (Sentinel) use we train that location data and predicted the other probable location.
+Slums are generally characterized by extremely high population densities, irregular arrangement of small buildings, and poor living conditions. These areas often harbor homeless populations. Our approach involves:
 
-We then validate the probable location got via inputs of users and surveys with the ML classified map and by this way we tracked the location of homeless people.
+1. **Identification of Slum Areas**: We identify areas with extensive slum presence, such as Dharavi, one of the largest slums. This is done through surveys and user inputs.
 
-We also added the additional features like taking the input data location from users which are being stored in database ,allows users to contact NGO’s nearby it ,allows user to donate ,report suspicious information like kidnapping,rape cases or any other related issues .We even added a feature to conduct and attend events like free health checkup over that area,free treatments,free foods ,educations and many other basic necessities via our web -portal
+2. **Location Mapping**: Collected data is marked on maps to track slum areas.
 
-## FILE DESCRIPTION :
+3. **Machine Learning Integration**: Using satellite imagery (Sentinel) and machine learning, we train models to predict probable slum locations based on collected data.
 
-- [Mumbai_details.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/Mumbai_details.html): It shows the details of the slums or homeless people using various maps including Google map, Satellite map and Machine Learning classified map.
+4. **Validation and Tracking**: Probable locations are validated against user inputs and surveys. This helps in tracking homeless populations effectively.
 
-- [Support-us.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/Support-us.html) :It’s a page that allows the user to donate a sum for homeless people by using a QR code.
+5. **Additional Features**: We have incorporated features such as:
+   - User-input location storage in a database.
+   - Contacting nearby NGOs.
+   - Donation options via QR codes.
+   - Reporting suspicious activities like kidnapping, smuggling, or rape cases.
+   - Organizing and attending events like free health checkups, treatments, food distribution, and educational sessions.
 
-- [contactauthorities.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/contactauthorities.html) :It allows the user to contact the managing Authorities.
+## FILE DESCRIPTION
 
-- [contactNGO.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/contactNGO.html):It allows the user to contact the near by NGO’s of the particular location.
+- **Mumbai_details.html**: Details of slums or homeless populations displayed using various maps (Google map, Satellite map, and Machine Learning classified map).
+- **Support-us.html**: Allows users to donate for homeless people using QR codes.
+- **contactauthorities.html**: Allows users to contact managing authorities.
+- **contactNGO.html**: Allows users to contact nearby NGOs.
+- **index.html**: Home page.
+- **contribute.html**: Allows users to contribute the location of homeless people stored in a database.
+- **file_report.html**: Allows users to report any deformities or suspicious activities related to homeless people shown on the map.
+- **index-logout.html**: Allows users to logout from the website.
+- **Login.css**: Stylesheet for the login page.
+- **login.html**: Login page.
+- **mission.html**: Describes the mission of the project.
+- **signup2.css**: Stylesheet for the signup page.
+- **signup2.html**: Signup page.
+- **package.json**: Stores important metadata about the project.
+- **feature_collection.js**: Dataset for ML classified map to be imported in Google Earth Engine.
+- **ml_map_gee.js**: Machine learning code used in Google Earth Engine editor to predict probable slum areas.
+- **github_repo_turing_crypt.txt**: GitHub repository link.
 
-- [index.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/index.html) :Home page.
-
-- [contribute.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/contribute.html) : It allows the user to contribute the location of homeless people that would be stored in a database.
-
-- [file_report.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/file_report.html) : It allows the user to contribute any deformities in the location of homeless people that are shown in the map . It also allows the user to file any deformities like kidnapping ,smuggling ,rape cases for that location .
-
-- [index-logout.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/index-logout.html) : It allows the user to end the season on the website.
-
-- [Login.css](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/login.css): Stylesheet for login page.
-
-- [login.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/login.html) : Login page
-
-- [mission.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/mission.html) : Our mission through the project.
-
-- [signup2.css](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/signup2.css) : Stylesheet for signup page.
-
-- [signup2.html](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/signup2.html) : signup page.
-
-- [package.json](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/package.json) :Stores important metadata about the project.
-
-- [feature_collection.js](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/feature_collection.js) :Data set for ml classified map i.e to be imported in google earth engine
-
-- [ml_map_gee.js](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/ml_map_gee.js) : machine learning code i.e used in google earth engine editor to predict the homeless people expected area
-
-- [github_repo_turing_crypt](https://github.com/Spritan/Hacksparrow-Turing_Crypt/blob/main/github_repo_turing_crypt.txt) : github repo link
 
 # SETTING UP THE PROJECT
 
@@ -68,7 +61,7 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 
 - #### Node installation on Ubuntu
 
-  You can install nodejs and npm easily with apt install, just run the following commands.
+  You can install node.js and npm easily with apt install, just run the following commands.
 
       $ sudo apt install nodejs
       $ sudo apt install npm
@@ -100,10 +93,10 @@ Contributions are always welcome!
 
 ## Tech Stack
 
-**Client:** HTML,CSS,JAVASCRIPT
+**Client:** HTML, CSS, JAVASCRIPT
 
-**Server:** NodeJS,MONGOdb
+**Server:** NodeJS, MongoDB
 
-- MACHINE LEARNING
+**MACHINE LEARNING:** Pre-processing, Multiclass Classification using Random Forest, NLTK, PyTorch, ReLU
 
-- GOOGLE EARTH ENGINE
+**Dashboard:** PowerBI
